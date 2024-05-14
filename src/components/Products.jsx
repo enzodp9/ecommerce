@@ -12,7 +12,7 @@ const Products = (props) => {
 
                 <div className="see-all">
                     <p>Ver Todo</p>
-                    <img src="../src/assets/Vector.png" alt="arrow" />
+                    <img src="assets/Vector.png" alt="arrow" />
                 </div>
             </div>
             <section className="prods-section">
