@@ -12,7 +12,7 @@ const Header = () => {
         <header>
             <nav>
                 <div className="brand">
-                    <a href="/"><img className="logo" src="../src/assets/logo.svg" alt="logo" /></a>
+                    <a href="/"><img className="logo" src="assets/logo.svg" alt="logo" /></a>
                     <input className="search" type="text" placeholder="Que deseas buscar?" />
                 </div>
                 {!login ? <div className="login">

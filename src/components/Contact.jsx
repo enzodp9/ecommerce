@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <section className="contact">
             <div className="footer-brand">
-                <img src="../src/assets/logo.svg" alt="logo" />
+                <img src="assets/logo.svg" alt="logo" />
             </div>
             <div className="links">
                 <a href="">Quienes somos</a>
