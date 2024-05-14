@@ -1,0 +1,92 @@
+.contact {
+    background-color: var(--bg-contact);
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0;
+}
+
+.footer-brand {
+    display: flex;
+    width: 350px;
+    margin: 20px 0 0 20px;
+}
+
+    .footer-brand img {
+        width: 200px;
+        height: 200px;
+    }
+
+.links {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    width: 200px;
+    margin-right: 100px;
+}
+
+    .links a {
+        color: black;
+        font-weight: normal;
+    }
+
+        .links a:hover {
+            color: var(--blue-emphasis);
+        }
+
+.form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+    .form p {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .form form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form label {
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    .form input,
+    .form textarea {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid var(--input-placeholder);
+        border-radius: 5px;
+        margin-bottom: 16px;
+        font-size: 16px;
+        color: var(--blue-emphasis);
+    }
+
+        .form input:focus,
+        .form textarea:focus {
+            outline: none;
+            border-color: var(--blue-emphasis);
+        }
+
+    .form button {
+        width: 100%;
+        background-color: var(--blue-emphasis);
+        color: var(--text-emphasis);
+        border: none;
+        padding: 12px 20px;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+        .form button:hover {
+            background-color: transparent;
+            color: var(--blue-emphasis);
+            border: 2px solid var(--blue-emphasis);
+        }

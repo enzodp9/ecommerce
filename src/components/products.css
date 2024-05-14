@@ -1,0 +1,125 @@
+/* Products */
+.products {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: var(--text-emphasis);
+}
+
+.prod-title {
+    padding: 0px 100px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .prod-title .title {
+        font-size: 32px;
+        font-weight: bold;
+        padding-left: 20px;
+        color: var(--bg-emphasis);
+    }
+
+    .prod-title .see-all {
+        display: flex;
+        gap: 0.4rem;
+        margin-right: 10px;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        filter: grayscale(100%);
+    }
+
+        .prod-title .see-all p {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .prod-title .see-all img {
+            width: 15px;
+            height: 15px;
+        }
+
+        .prod-title .see-all:hover {
+            color: var(--blue-emphasis);
+            filter: grayscale(0%);
+        }
+
+.prods-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+/* Product-Card */
+.product-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.product-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+.product-name {
+    color: var(--blue-emphasis);
+    font-weight: bold;
+    font-size: 16px;
+    margin: 8px 0;
+    padding: 0 8px;
+}
+
+.product-price {
+    color: var(--bg-input);
+    font-weight: bold;
+    font-size: 16px;
+    margin: 2px 0;
+    padding: 0 8px;
+}
+
+.buy-button,
+.in-cart {
+    color: var(--text-emphasis);
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button {
+    background-color: var(--blue-emphasis);
+}
+
+    .buy-button:hover {
+        background-color: var(--text-emphasis);
+        color: var(--blue-emphasis);
+    }
+
+.in-cart {
+    position: relative;
+    background-color: green;
+}
+
+    .in-cart:hover {
+        background-color: red;
+        color: var(--text-emphasis);
+    }
+
+
+    .in-cart::after {
+        content: "En el carrito";
+    }
+
+    .in-cart:hover::after {
+        content: "Quitar del carrito";
+    }
