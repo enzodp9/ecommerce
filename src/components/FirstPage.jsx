@@ -8,103 +8,103 @@ const FirstPage = () => {
     const productList = [{
         name: "Atari",
         price: 100.00,
-        image: "../src/assets/atari.png",
+        image: "assets/atari.png",
     }, {
         name: "Baby Yoda",
         price: 200.00,
-        image: "../src/assets/babyyoda.png",
+        image: "assets/babyyoda.png",
     },
     {
         name: "Remera SNES",
         price: 300.00,
-        image: "../src/assets/camisasnes.png",
+        image: "assets/camisasnes.png",
     },
     {
         name: "Taza Trupper",
         price: 300.00,
-        image: "../src/assets/canecasw.png",
+        image: "assets/canecasw.png",
     },
     {
         name: "Mini Darth",
         price: 300.00,
-        image: "../src/assets/mini darth.png"
+        image: "assets/mini darth.png"
     }];
 
     const consoleList = [{
         name: "PlayStation 5",
         price: 500.00,
-        image: "../src/assets/ps5.png",
+        image: "assets/ps5.png",
     }, {
         name: "Xbox Series X",
         price: 500.00,
-        image: "../src/assets/console.png",
+        image: "assets/console.png",
     },
     {
         name: "Nintendo Switch",
         price: 500.00,
-        image: "../src/assets/switch.png",
+        image: "assets/switch.png",
     },
     {
         name: "SNES",
         price: 500.00,
-        image: "../src/assets/snes.png",
+        image: "assets/snes.png",
     },
     {
         name: "GameBoy Advance",
         price: 500.00,
-        image: "../src/assets/gba.png",
+        image: "assets/gba.png",
     }];
 
     const gameList = [{
         name: "Halo 3",
         price: 20.00,
-        image: "../src/assets/HALO3.jpg",
+        image: "assets/HALO3.jpg",
     },
     {
         name: "Left 4 Dead",
         price: 20.00,
-        image: "../src/assets/L4D.jpg",
+        image: "assets/L4D.jpg",
     },
     {
         name: "Ghostbusters",
         price: 20.00,
-        image: "../src/assets/Ghostbusters.jpg",
+        image: "assets/Ghostbusters.jpg",
     },
     {
         name: "Grand Theft Auto Vice City",
         price: 20.00,
-        image: "../src/assets/GTAVC.jpg",
+        image: "assets/GTAVC.jpg",
     },
     {
         name: "Uncharted 2",
         price: 20.00,
-        image: "../src/assets/Uncharted2.jpg",
+        image: "assets/Uncharted2.jpg",
     }];
 
     const accessoryList = [{
         name: "Joystick 1",
         price: 20.00,
-        image: "../src/assets/jsxbox.png",
+        image: "assets/jsxbox.png",
     },
     {
         name: "Joystick 2",
         price: 20.00,
-        image: "../src/assets/jsxbox.png",
+        image: "assets/jsxbox.png",
     },
     {
         name: "Joystick 3",
         price: 20.00,
-        image: "../src/assets/jsxbox.png",
+        image: "assets/jsxbox.png",
     },
     {
         name: "Joystick 4",
         price: 20.00,
-        image: "../src/assets/jsxbox.png",
+        image: "assets/jsxbox.png",
     },
     {
         name: "Joystick 5",
         price: 20.00,
-        image: "../src/assets/jsxbox.png",
+        image: "assets/jsxbox.png",
     }];
 
     return (
