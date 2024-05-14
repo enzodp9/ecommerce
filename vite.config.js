@@ -1,11 +1,11 @@
 import { defineConfig } from 'vite';
-import plugin from '@vitejs/plugin-react';
+import react from '@vitejs/plugin-react';
 
 
 // https://vitejs.dev/config/
 export default defineConfig({
     base: "/ecommerce/",
-    plugins: [plugin()],
+    plugins: [react()],
     server: {
         host: true
     }
